@@ -14,6 +14,10 @@ int tmp;
 
 if (!array || !size)
 return;
+i = 0;
+while (i < size)
+
+{
 
 for (i = 0; i < size - 1; i++)
 {
@@ -27,6 +31,8 @@ array[k + 1] = tmp;
 print_array(array, size);
 }
 }
+}
+i++;
 }
 printf("\n");
 }
